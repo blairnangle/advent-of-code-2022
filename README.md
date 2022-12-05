@@ -32,6 +32,16 @@ python day1.py
 time python day1.py
 ```
 
+## Testing
+
+Only simplistic example cases have been added (so far…).
+
+- Assuming `pytest` is installed:
+
+```shell
+pytest
+```
+
 ## License
 
 Distributed under an [MIT License](./LICENSE).
