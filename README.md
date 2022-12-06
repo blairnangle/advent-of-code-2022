@@ -34,7 +34,7 @@ time python day1.py
 
 ## Testing
 
-Only simplistic example cases have been added (so far…).
+Simplistic example cases will be added, as well as any specific scenarios on which I want feedback.
 
 - Assuming `pytest` is installed:
 
