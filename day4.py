@@ -38,5 +38,7 @@ def get_number_of_overlapping_ranges(input_file):
     return total
 
 
-print(f"Solution to Part One: {get_number_of_completely_contained_ranges('day4.txt')}\n")
+print(
+    f"Solution to Part One: {get_number_of_completely_contained_ranges('day4.txt')}\n"
+)
 print(f"Solution to Part Two: {get_number_of_overlapping_ranges('day4.txt')}")

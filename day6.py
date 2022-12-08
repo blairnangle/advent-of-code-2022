@@ -3,7 +3,7 @@ def find_first_marker_position(buffer, n_distinct_chars):
     for idx, letter in enumerate(list(buffer)):
         if letter in window:
             window.append(letter)
-            window = window[window.index(letter) + 1:]
+            window = window[window.index(letter) + 1 :]
             continue
         else:
             window.append(letter)

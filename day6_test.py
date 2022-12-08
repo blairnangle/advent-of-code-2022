@@ -21,5 +21,7 @@ def test_example_case_part_two():
     assert day6.find_first_marker_position("mjqjpqmgbljsphdztnvjfqwrcgsmlb", 14) == 19
     assert day6.find_first_marker_position("bvwbjplbgvbhsrlpgdmjqwftvncz", 14) == 23
     assert day6.find_first_marker_position("nppdvjthqldpwncqszvftbrmjlhg", 14) == 23
-    assert day6.find_first_marker_position("nznrnfrfntjfmvfwmzdfjlvtqnbhcprsg", 14) == 29
+    assert (
+        day6.find_first_marker_position("nznrnfrfntjfmvfwmzdfjlvtqnbhcprsg", 14) == 29
+    )
     assert day6.find_first_marker_position("zcfzfwzzqfrljwzlrfnpqdbhtmscgvjw", 14) == 26

@@ -13,7 +13,11 @@ def parse(input_file):
         if line.startswith("move"):
             instructions.append(line.strip())
         if re.match("^[0-9]", line):
-            line_elements = line.strip().translate(str.maketrans('', '', string.punctuation)).split(" ")
+            line_elements = (
+                line.strip()
+                .translate(str.maketrans("", "", string.punctuation))
+                .split(" ")
+            )
             stack_number, crates = line_elements[0], line_elements[1:]
             initial_state[stack_number] = crates
 
@@ -44,8 +48,8 @@ def move_crates_9001(input_file):
         end = split[5]
         n = int(split[1])
 
-        new_starting_stack = state[start][:len(state[start]) - n]
-        crates_to_move = state[start][len(state[start]) - n:]
+        new_starting_stack = state[start][: len(state[start]) - n]
+        crates_to_move = state[start][len(state[start]) - n :]
 
         state[start] = new_starting_stack
         state[end] = state[end] + crates_to_move

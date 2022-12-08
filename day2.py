@@ -19,7 +19,7 @@ def score_strategy_one(input_file):
         "BZ": 9,
         "CX": 7,
         "CY": 2,
-        "CZ": 6
+        "CZ": 6,
     }
 
     with open(input_file) as f:
@@ -52,7 +52,7 @@ def score_strategy_two(input_file):
     outcome_based_score = {
         "X": 0,
         "Y": 3,
-        "Z": 6
+        "Z": 6,
     }
 
     choice_based_score = {
@@ -64,7 +64,7 @@ def score_strategy_two(input_file):
         "BZ": 3,
         "CX": 2,
         "CY": 3,
-        "CZ": 1
+        "CZ": 1,
     }
 
     with open(input_file) as f:
