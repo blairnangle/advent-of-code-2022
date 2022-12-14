@@ -42,6 +42,12 @@ Simplistic example cases will be added, as well as any specific scenarios on whi
 pytest
 ```
 
+## Test and format
+
+```shell
+./pre-commit.sh
+```
+
 ## License
 
 Distributed under an [MIT License](./LICENSE).
